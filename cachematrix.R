@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Following two functions are used to cache the inverse of a matrix.
 
-## Write a short comment describing this function
+# makeCacheMatrix creates a list containing a function to
+# 1. set the value of the matrix
+# 2. get the value of the matrix
+# 3. set the value of inverse of the matrix
+# 4. get the value of inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
